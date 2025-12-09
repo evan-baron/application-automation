@@ -23,8 +23,8 @@ export default async function DashboardLayout({
 		redirect('/');
 	}
 
-	// const { findOrCreateUser } = await import('@/services/userService');
-	// await findOrCreateUser(user);
+	const { findOrCreateUser } = await import('@/services/userService');
+	await findOrCreateUser(user);
 
 	return (
 		<div
@@ -33,7 +33,7 @@ export default async function DashboardLayout({
 			aria-labelledby='app-title'
 		>
 			{/* Top Bar */}
-			<TopBar userName={user.given_name || 'User'} />
+			<TopBar userName={user?.given_name || 'User'} />
 
 			<div className={styles.mainContent} role='main'>
 				{/* Side Bar */}
