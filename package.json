@@ -19,7 +19,6 @@
 		"dotenv": "^17.2.3",
 		"googleapis": "^168.0.0",
 		"next": "16.0.8",
-		"nodemailer": "^7.0.11",
 		"pg": "^8.16.3",
 		"react": "19.2.1",
 		"react-dom": "19.2.1",
@@ -27,7 +26,6 @@
 	},
 	"devDependencies": {
 		"@types/node": "^20.19.26",
-		"@types/nodemailer": "^7.0.4",
 		"@types/pg": "^8.15.6",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
